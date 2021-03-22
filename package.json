@@ -1,13 +1,10 @@
 {
-  "name": "my-cordova-plugin-bixolon-printer",
+  "name": "@sake12/my-cordova-plugin-bixolon-printer",
   "version": "1.0.0",
-  "description": "A Cordova/Phonegap driver for Bixolon printers",
-  "cordova": {
-    "id": "pl.simplymobile.bixolonprint",
-    "platforms": [
-      "android",
-      "browser"
-    ]
+  "description": "A Cordova plugin for Bixolon printers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -17,19 +14,13 @@
     "cordova",
     "bixolon",
     "printer",
-    "wifi",
-    "bluetooth",
-    "print",
     "android",
-    "install",
-    "ecosystem:cordova",
-    "cordova-android"
+    "ionic"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
-  "homepage": "https://github.com/sake12/my-cordova-plugin-bixolon-printer"
+  "author": "sake12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sake12/my-cordova-plugin-bixolon-printer/issues"
+  },
+  "homepage": "https://github.com/sake12/my-cordova-plugin-bixolon-printer#readme"
 }
