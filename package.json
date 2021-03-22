@@ -1,6 +1,6 @@
 {
   "name": "@sake12/my-cordova-plugin-bixolon-printer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Cordova plugin for Bixolon printers.",
   "main": "index.js",
   "scripts": {
