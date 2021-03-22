@@ -19,7 +19,7 @@ Below are the methods for installing this plugin automatically using command lin
 ### Using the Cordova CLI
 
 ```
-$ cordova plugin add cordova-plugin-bixolon-printer
+$ cordova plugin add my-cordova-plugin-bixolon-printer
 ```
 
 ## Plugin Options

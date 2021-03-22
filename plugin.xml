@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="it.alfonsovinti.cordova.plugins.bixolonprint"
-    version="1.7.1">
+    id="pl.simplymobile.bixolonprint"
+    version="1.0.0">
 
     <name>BixolonPrint</name>
     <description>Printing on Bixolon print.</description>
     <license>Apache 2.0</license>
     <keywords>cordova,bixolonprint</keywords>
 
-    <author>Alfonso Vinti</author>
+    <author>SimplyMobile</author>
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
@@ -63,11 +63,11 @@
     <!-- android -->
     <platform name="android">
 
-        <source-file src="src/android/BixolonPrint.java" target-dir="src/it/alfonsovinti/cordova/plugins/bixolonprint" />
+        <source-file src="src/android/BixolonPrint.java" target-dir="src/it/simplymobile/cordova/plugins/bixolonprint" />
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="BixolonPrint">
-                <param name="android-package" value="it.alfonsovinti.cordova.plugins.bixolonprint.BixolonPrint" />
+                <param name="android-package" value="pl.simplymobile.cordova.plugins.bixolonprint.BixolonPrint" />
             </feature>
         </config-file>
 
