@@ -21,45 +21,6 @@
 
     <asset src="www/bixolonprint.js" target="bixolonprint.js" />
 
-    <!-- ios -->
-    <platform name="ios">
-        <!-- Cordova >= 2.8 -->
-        <config-file target="config.xml" parent="/*">
-            <feature name="BixolonPrint">
-                <param name="ios-package" value="CDVBixolonPrint" />
-            </feature>
-        </config-file>
-
-        <header-file src="src/ios/CDVBixolonPrint.h" />
-        <source-file src="src/ios/CDVBixolonPrint.m" />
-
-        <config-file target="*-Info.plist" parent="UISupportedExternalAccessoryProtocols">
-            <array>
-                <string>com.bixolon.protocol</string>
-            </array>
-        </config-file>
-
-        <!-- Bixolon framework -->
-        <source-file src="src/ios/lib/libBXSDK.a" framework="true"/>
-
-        <!-- System frameworks -->
-        <framework src="ExternalAccessory.framework"/>
-
-        <!-- Bixolon library header files -->
-        <header-file src="src/ios/lib/Headers/BXBarcodeInfo.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/BXCode.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/BXPrinterControlDelegate.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/BXPrinterController.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/BXPrinterObjects.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/Common.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/Defines.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/iControllerDelegate.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/InterfaceFunctionsDelegate.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/NetFunctionsDelegate.h" target-dir="BixolonLib/Headers" />
-        <header-file src="src/ios/lib/Headers/UDPServerDelegate.h" target-dir="BixolonLib/Headers" />
-
-    </platform>
-
     <!-- android -->
     <platform name="android">
 
